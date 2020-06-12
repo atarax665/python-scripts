@@ -66,7 +66,7 @@ while(cap.isOpened()):
     out.write(finalOutput)
     cv2.imshow("magic",finalOutput)
     k = cv2.waitKey(1)
-    if k == 27:  #Press Enter key to exit
+    if k == 27:  #Press Esc key to exit
         break
 
 cap.release()

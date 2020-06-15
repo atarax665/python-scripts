@@ -1,6 +1,6 @@
 from selenium import webdriver
 from time import sleep
-from creditentials import username, password
+from credentials import username, password
 
 
 class InstaBot:
